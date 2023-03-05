@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TABLA PERIODICA</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+
+    {{#each (complementar elements.[0])}}
+
+    {{#if (posicionTransaparente @index)}}
+
+    <div class="empty">
+      <h4> </h4>
+    </div>
+
+    {{else }}
+
+    {{#if (validate @index)}}
+    <div class="columnas {{data @index 2}}">
+      <h4>{{data @index 1}} </h4>
+    </div>
+
+    {{else}}
+    <div class="grey">
+      <h4>E</h4>
+    </div>
+    {{/if}}
+
+
+    {{/if}}
+
+    {{#if (saltoDeLinea @index)}}
+
+    <div class="mt-4"></div>
+
+    {{/if}}
+
+    {{#if (IsModule @index)}}
+    <div></div>
+    {{/if}}
+
+    {{/each}}
+  </div>
+
+  <div class="center mt-4">
+    <div class="header ">
+      <div class="metales bg-lightgrey">
+        <h4>Metales</h4>
+      </div>
+      <div class="metaloides bg-lightgrey">
+        <h4></h4>
+      </div>
+      <div class="no-metales bg-lightgrey">
+        <h4>No Metales</h4>
+      </div>
+    </div>
+    {{#each (footerRender)}}
+    <div class="footerRender {{this.[1]}}">
+      <h4>{{this.[0]}}</h4>
+    </div>
+    {{/each}}
+  </div>
+</body>
+
+</html>

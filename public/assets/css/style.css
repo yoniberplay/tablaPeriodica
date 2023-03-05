@@ -1,0 +1,177 @@
+.bg-grey {
+  background-color: rgb(144, 144, 144);
+}
+
+.bg-lightgrey {
+  background-color: rgb(223, 223, 223);
+}
+
+.bg-alcalinos {
+
+  background-color: #C0A0C8;
+
+}
+
+.bg-metaloides {
+
+  background-color: #D5DA62;
+}
+
+.bg-otros-metales {
+
+  background-color: #F4DA3A;
+}
+
+.bg-halogenos {
+
+  background-color: #9DC2C4;
+}
+
+.otros-no-metales {
+
+  background-color: #8CB988;
+}
+
+.bg-gases-nobles {
+
+  background-color: #ACC9E9;
+}
+
+.bg-actinidos {
+
+  background-color: #D7957E;
+}
+
+.bg-lantanidose {
+
+  background-color: #DE9C60;
+}
+
+.bg-metalestransicion {
+
+  background-color: #E8BB54;
+}
+
+
+
+.bg-alcalinoterreos {
+
+  background-color: #D7A1C5;
+}
+
+
+
+.empty {
+
+  display: inline-block;
+  width: 69px;
+  text-align: center;
+  margin: -4px;
+  height: fit-content;
+
+}
+.footerRender {
+
+  width: 115px;
+  height: 90px;
+  border-style: solid;
+  display: inline-block;
+  margin: 0px -4px -4px;
+  overflow: auto;
+
+}
+
+.grey {
+
+  display: inline-block;
+  width: 63px;
+  height: 70px;
+  text-align: center;
+  margin: 0px -4px -4px;
+  background-color: rgb(144, 144, 144);
+  border-style: solid;
+}
+
+.grey h4 {
+
+  color: rgb(144, 144, 144);
+}
+
+.columnas {
+  display: inline-block;
+  width: 63px;
+  height: 70px;
+  border-style: solid;
+  text-align: center;
+  margin: 0px -4px -4px;
+
+}
+
+.container {
+
+  text-align: center;
+  margin-top: 5%;
+
+}
+
+
+
+.center {
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.mt-4 {
+  margin-top: 4%;
+
+}
+
+
+p,
+h4 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 700;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+}
+
+.header {
+  height: 20px;
+}
+
+.metales {
+  width: 700px;
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+  overflow: auto;
+}
+
+.no-metales {
+
+  width: 349px;
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+  overflow: auto;
+}
+
+.metaloides {
+
+  width: 115px;
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+}
+
