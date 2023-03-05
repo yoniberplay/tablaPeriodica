@@ -126,7 +126,7 @@ const elements = [
 
 
 router.get("/", (req, res, next) => {
-  res.status(200).render("home", { layout: false, title: 'Tabla Yoniber',elements});
+  res.status(200).render("home", { layout: false, title: 'Tabla Periodica',elements});
 });
 
 exports.Router = router;

@@ -2,7 +2,6 @@ const express = require("express");
 const path = require("path");
 const engine = require("express-handlebars");
 const rendersHelpers = require("./helpers/hbs/renders");
-const complementarHelpers = require("./helpers/hbs/complementar");
 const validateHelpers = require("./helpers/hbs/validate");
 const dataHelpers = require("./helpers/hbs/data");
 const homeRouter = require("./routes/home");
@@ -17,7 +16,7 @@ app.engine(
       posicionTransaparente: rendersHelpers.posicionTransaparente,
       saltoDeLinea: rendersHelpers.saltoDeLinea,
       IsModule: rendersHelpers.IsModule,
-      complementar: complementarHelpers.complementar,
+      complementar: rendersHelpers.complementar,
       validate: validateHelpers.Validate,
       data: dataHelpers.data,
       footerRender: rendersHelpers.footerRender,
